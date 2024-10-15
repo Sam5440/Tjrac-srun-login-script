@@ -24,7 +24,7 @@ def loopLoad(usrname,passwd,browserChoice='firefox'):
         
         el = lambda id : browser.find_element(By.ID, id)
         try:
-            browser.get('http://10.0.0.55/')
+            browser.get('http://59.67.168.218/')
             time.sleep(1)
             try: 
                 if el("logout"):

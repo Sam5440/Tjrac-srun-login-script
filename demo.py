@@ -1,7 +1,21 @@
-from BitSrunLogin.LoginManager import LoginManager
+from BitSrunLogin.LoginManager imt LoginManager
 
-lm = LoginManager()
-lm.login(
-    username = "Your srun account",
-    password = "Your password"
+# load json from local config.json
+import json
+
+with open("config.json", "r") as f:
+    config = json.load(f)
+# print(config)
+lm = LoginManager(
+    username=config["username"],
+    password=config["password"],
+    # url=config["url"],
+
 )
+# lm.logout()
+lm.login()
+# lm.show_ip()
+lm.online_staute_check()
+
+
+# lm.logout()

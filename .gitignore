@@ -1,3 +1,9 @@
 .vscode/
 
 *.pyc
+temp/2.py
+temp/bk.py
+temp/main.js
+temp/rad.py
+temp/webauth.py
+config.json
