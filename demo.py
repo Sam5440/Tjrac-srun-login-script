@@ -1,4 +1,4 @@
-from BitSrunLogin.LoginManager imt LoginManager
+from BitSrunLogin.LoginManager import LoginManager
 
 # load json from local config.json
 import json
