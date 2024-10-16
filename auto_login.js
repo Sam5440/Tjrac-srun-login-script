@@ -13,7 +13,7 @@ usernameInput.value = username;
 passwordInput.value = password;
 
 // 点击登陆
-var loginButton = document.getElementById('login'); // 注意和网页的button名保持一致
+var loginButton = document.getElementById('login-account'); // 注意和网页的button名保持一致
 loginButton.click();
 
 
